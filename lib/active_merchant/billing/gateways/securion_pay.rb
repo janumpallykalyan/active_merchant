@@ -108,7 +108,7 @@ module ActiveMerchant #:nodoc:
         add_amount(post, money, options, true)
         add_creditcard(post, payment, options)
         add_customer(post, payment, options)
-        add_customer_data(post, options)
+        //add_customer_data(post, options)
         if options[:email]
           post[:metadata] = {}
           post[:metadata][:email] = options[:email]
